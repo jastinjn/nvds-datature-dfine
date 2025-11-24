@@ -11,10 +11,10 @@ Deepstream 6.3 or above
 
 1. Add your Datature exported D-FINE (or other models) .onnx file to models/, following the Triton repo structure:
 
-models/
---dfine/
---config.pbtxt
---1/
+models/\n
+--dfine/\n
+--config.pbtxt\n
+--1/\n
 --model.onnx
 
 2. Compile the TensorRT engine file (takes 15-30 minutes)
